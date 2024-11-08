@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Netflix Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um clone do front-end da Netflix, desenvolvido em React.js, utilizando a API do [The Movie Database (TMDb)](https://www.themoviedb.org/) para exibir informações e imagens dos filmes. O objetivo é replicar a interface de usuário da Netflix para fins de aprendizado e prática de desenvolvimento front-end.
 
-## Available Scripts
+## 📸 Demonstração
 
-In the project directory, you can run:
+![Netflix Clone Screenshot](screenshot.png) <!-- Substitua com o caminho correto para a imagem do projeto -->
 
-### `npm start`
+## 🚀 Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js** — Biblioteca JavaScript para a construção de interfaces de usuário reativas.
+- **Axios** — Cliente HTTP para facilitar as requisições à API do TMDb.
+- **CSS Modules / Styled Components** — Para estilizar os componentes e criar uma interface semelhante à Netflix.
+- **API The Movie Database (TMDb)** — Utilizada para buscar dados de filmes, séries, classificações, e imagens.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Como Rodar o Projeto
 
-### `npm test`
+Siga estas etapas para rodar o projeto em sua máquina local:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/netflix-clone.git
+   cd netflix-clone
+   Instale as dependências:
 
-### `npm run build`
+bash
+Copiar código
+npm install
+Configuração da API:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Crie uma conta em The Movie Database (TMDb) e obtenha uma chave de API.
+No diretório raiz do projeto, crie um arquivo .env e adicione sua chave de API:
+env
+Copiar código
+REACT_APP_TMDB_API_KEY=SUA_CHAVE_AQUI
+Inicie o projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copiar código
+npm start
+Acesse o projeto no navegador:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O projeto estará disponível em http://localhost:3000.
+🔥 Funcionalidades
+Listagem de filmes — Categorias populares, em alta, lançamentos, etc.
+Detalhes de filmes — Exibição de título, sinopse, classificação e outras informações.
+Busca — Busca por filmes específicos (se implementado).
+Visual agradável e familiar — Interface inspirada na Netflix, com carrosséis e design responsivo.
+🌟 Próximos Passos
+Implementação de funcionalidade de busca por filmes
+Adicionar trailers e pré-visualização ao passar o mouse
+Página de detalhes dos filmes
+Implementação de autenticação para simular o ambiente Netflix
+🤝 Contribuições
+Contribuições são bem-vindas! Se tiver sugestões ou melhorias, sinta-se à vontade para abrir um Pull Request.
 
-### `npm run eject`
+📝 Licença
+Este projeto é apenas para fins educacionais e não possui nenhuma afiliação com a Netflix.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤️ por Ygor Paz
